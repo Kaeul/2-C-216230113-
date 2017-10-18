@@ -28,6 +28,8 @@ public class Main4Activity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main4);
 
+        setTitle("Gallery");
+
         rootContainer =
                 (ViewGroup) findViewById(R.id.rootContainer);
 

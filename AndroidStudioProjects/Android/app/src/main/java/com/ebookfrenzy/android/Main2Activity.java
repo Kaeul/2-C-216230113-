@@ -16,9 +16,9 @@ public class Main2Activity extends AppCompatActivity {
         tabHost = (TabHost) findViewById(R.id.tabhost);
         tabHost.setup();
 
-        TabHost.TabSpec me = tabHost.newTabSpec("1").setContent(R.id.classa).setIndicator("기본 정보");
-        TabHost.TabSpec favorite = tabHost.newTabSpec("2").setContent(R.id.name).setIndicator("좋아하는 것");
-        TabHost.TabSpec talk = tabHost.newTabSpec("3").setContent(R.id.number).setIndicator("하고싶은 말");
+        TabHost.TabSpec me = tabHost.newTabSpec("1").setContent(R.id.me).setIndicator("기본 정보");
+        TabHost.TabSpec favorite = tabHost.newTabSpec("2").setContent(R.id.favorite).setIndicator("좋아하는 것");
+        TabHost.TabSpec talk = tabHost.newTabSpec("3").setContent(R.id.talk).setIndicator("하고싶은 말");
 
         tabHost.addTab(me);
         tabHost.addTab(favorite);

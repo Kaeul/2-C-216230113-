@@ -37,7 +37,7 @@
                     android:layout_height="match_parent">
 
                     <LinearLayout
-                        android:id="@+id/classa"
+                        android:id="@+id/me"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:orientation="vertical">
@@ -87,7 +87,7 @@
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/name"
+                        android:id="@+id/favorite"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:orientation="vertical">
@@ -125,7 +125,7 @@
                     </LinearLayout>
 
                     <LinearLayout
-                        android:id="@+id/number"
+                        android:id="@+id/talk"
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:orientation="vertical">
